@@ -1,6 +1,7 @@
 import Vue          from 'vue'
 import VueRouter    from 'vue-router'
 import Home         from '../views/Home.vue'
+import Contribute         from '../views/contribute.vue'
 import About        from '../views/About.vue'
 import how_it_works from '../views/how_it_works.vue'
 import Analytics    from '../views/UI/dashboard/analytics.vue'
@@ -85,6 +86,7 @@ import ThemeBasedDesigns_index  from '../views/DESIGNS/ThemeBasedDesigns/ThemeBa
 Vue.use(VueRouter)
 const routes = [
   { path: '/', name: 'home', component: Home },
+  { path: '/contribute', name: 'Contribute', component: Contribute },
   { path: '/about', name: 'about', component: About },
   { path: '/how_it_works',  name: 'How It Works', component: how_it_works },
   { path: '/analytics',  name: 'Analytics', component: Analytics },

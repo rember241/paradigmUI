@@ -210,6 +210,7 @@
       ],
       top_pages: [
         { title: 'Home', icon: 'mdi-home-city', to:'/' },
+        { title: 'Contribute', icon: 'mdi-robot-happy', to:'contribute' },
         { title: 'About', icon: 'mdi-help-box', to:'about' },
         { title: 'How it Works', icon: 'mdi-cogs', to:'how_it_works' },
       ],
