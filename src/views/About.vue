@@ -50,7 +50,6 @@
           <v-card flat>
             <v-card-text>
                 display sample here and code will be re directed to GIT or fiddle
-
             </v-card-text>
           </v-card>
         </v-tab-item>
@@ -67,7 +66,7 @@
       return {
         tab: null,
         items: [
-          'Overview', 'HTML', 'Script', 'Style',
+          'Item 1', 'Item 2', 'Item 3', 'Item 4',
         ]
       }
     },
